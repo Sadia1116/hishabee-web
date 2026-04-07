@@ -1,2 +1,2 @@
-# Hishabee-online-shop
+# Hishabee-web
 Playwright project
