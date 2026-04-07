@@ -1,0 +1,146 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - link "logo" [ref=e6] [cursor=pointer]:
+        - /url: /home
+        - img "logo" [ref=e7]
+      - navigation [ref=e8]:
+        - list [ref=e9]:
+          - generic [ref=e12]:
+            - link "হোম" [ref=e13] [cursor=pointer]:
+              - /url: /home
+              - generic [ref=e14]:
+                - generic: হোম
+            - link "কেনা" [ref=e15] [cursor=pointer]:
+              - /url: /purchase
+              - generic [ref=e16]:
+                - generic: কেনা
+            - link "বেচা" [ref=e17] [cursor=pointer]:
+              - /url: /sell
+              - generic [ref=e18]:
+                - generic: বেচা
+            - link "ক্যাশবক্স" [ref=e19] [cursor=pointer]:
+              - /url: /cashbox
+              - generic [ref=e20]:
+                - generic: ক্যাশবক্স
+            - button "দ্রুত বেচা" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]:
+                - generic: দ্রুত বেচা
+            - link "কেনার খাতা" [ref=e24] [cursor=pointer]:
+              - /url: /purchase-list
+              - generic [ref=e25]:
+                - generic: কেনার খাতা
+            - link "বেচার খাতা" [ref=e26] [cursor=pointer]:
+              - /url: /sell-list
+              - generic [ref=e27]:
+                - generic: বেচার খাতা
+            - link "বাকির খাতা" [ref=e28] [cursor=pointer]:
+              - /url: /due
+              - generic [ref=e29]:
+                - generic: বাকির খাতা
+            - link "খরচের খাতা" [ref=e30] [cursor=pointer]:
+              - /url: /expense
+              - generic [ref=e31]:
+                - generic: খরচের খাতা
+            - link "যোগাযোগ" [ref=e32] [cursor=pointer]:
+              - /url: /contact
+              - generic [ref=e33]:
+                - generic: যোগাযোগ
+            - link "অ্যাপ ট্রেনিং" [ref=e34] [cursor=pointer]:
+              - /url: /tutorial
+              - generic [ref=e35]:
+                - generic: অ্যাপ ট্রেনিং
+            - link "প্রোডাক্ট লিস্ট" [ref=e37] [cursor=pointer]:
+              - /url: /product
+              - generic [ref=e38]:
+                - generic: প্রোডাক্ট লিস্ট
+            - link "স্টকের হিসাব" [ref=e39] [cursor=pointer]:
+              - /url: /stock
+              - generic [ref=e40]:
+                - generic: স্টকের হিসাব
+            - link "অ্যাপ অ্যাক্সেস" [ref=e41] [cursor=pointer]:
+              - /url: /access-management
+              - generic [ref=e42]:
+                - generic: অ্যাপ অ্যাক্সেস
+            - link "প্রিন্টার" [ref=e43] [cursor=pointer]:
+              - /url: /printer
+              - generic [ref=e44]:
+                - generic: প্রিন্টার
+            - link "ব্যবসার রিপোর্ট" [ref=e45] [cursor=pointer]:
+              - /url: /business-overview
+              - generic [ref=e46]:
+                - generic: ব্যবসার রিপোর্ট
+            - link "মার্কেটিং" [ref=e48] [cursor=pointer]:
+              - /url: /sms
+              - generic [ref=e49]:
+                - generic: মার্কেটিং
+            - link "অনলাইন শপ" [ref=e50] [cursor=pointer]:
+              - /url: /online-shop
+              - generic [ref=e51]:
+                - generic: অনলাইন শপ
+            - link "মেয়াদোত্তীর্ণ পণ্য" [ref=e52] [cursor=pointer]:
+              - /url: /expired-product?expired=false
+              - generic [ref=e53]:
+                - generic: মেয়াদোত্তীর্ণ পণ্য
+            - link "ওয়ারেন্টি পণ্য" [ref=e54] [cursor=pointer]:
+              - /url: /warranty-product
+              - generic [ref=e55]:
+                - generic: ওয়ারেন্টি পণ্য
+            - link "রিসাইকেল বিন" [ref=e56] [cursor=pointer]:
+              - /url: /recycle-bin
+              - generic [ref=e57]:
+                - generic: রিসাইকেল বিন
+    - main [ref=e59]:
+      - generic [ref=e60]:
+        - navigation [ref=e61]:
+          - button [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - button [ref=e69] [cursor=pointer]:
+                - img [ref=e70]
+              - button [ref=e72] [cursor=pointer]:
+                - img [ref=e73]
+              - button "সেটিংস" [ref=e77] [cursor=pointer]:
+                - img [ref=e78]
+                - generic [ref=e80]: সেটিংস
+            - generic [ref=e81] [cursor=pointer]:
+              - img "photo" [ref=e83]
+              - generic [ref=e84]: test
+              - img [ref=e85]
+        - list [ref=e88]:
+          - listitem [ref=e89]:
+            - generic [ref=e90]:
+              - link "Online-shop" [ref=e91] [cursor=pointer]:
+                - /url: /online-shop
+              - img [ref=e92]
+          - listitem [ref=e94]:
+            - link "Online Message" [ref=e96] [cursor=pointer]:
+              - /url: /online-shop/messages
+      - generic [ref=e100]:
+        - heading "Select Chat Option" [level=2] [ref=e101]
+        - generic [ref=e102]:
+          - button "Whatsapp" [ref=e103] [cursor=pointer]
+          - button "Facebook" [ref=e104] [cursor=pointer]
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - heading "Setup Whatsapp Chat" [level=3] [ref=e107]
+            - paragraph [ref=e108]: "Enter whatsapp number:"
+            - paragraph [ref=e109]:
+              - text: Like:-
+              - strong [ref=e110]: 01********
+          - generic [ref=e111]:
+            - generic [ref=e112]: Whatsapp Number
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - button "Bangladesh" [ref=e115] [cursor=pointer]:
+                  - img "Bangladesh" [ref=e116]
+                  - img [ref=e117]
+                - generic [ref=e119]: "+88"
+              - spinbutton [ref=e120]
+          - button "Save" [ref=e122] [cursor=pointer]
+  - region "Notifications alt+T"
+```

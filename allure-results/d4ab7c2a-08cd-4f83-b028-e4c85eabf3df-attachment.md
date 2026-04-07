@@ -1,0 +1,337 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - complementary:
+          - generic:
+            - link:
+              - /url: /home
+              - img
+          - navigation:
+            - list:
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /home
+                      - generic:
+                        - generic: হোম
+                    - link:
+                      - /url: /purchase
+                      - generic:
+                        - generic: কেনা
+                    - link:
+                      - /url: /sell
+                      - generic:
+                        - generic: বেচা
+                    - link:
+                      - /url: /cashbox
+                      - generic:
+                        - generic: ক্যাশবক্স
+                    - button:
+                      - generic:
+                        - generic: দ্রুত বেচা
+                    - link:
+                      - /url: /purchase-list
+                      - generic:
+                        - generic: কেনার খাতা
+                    - link:
+                      - /url: /sell-list
+                      - generic:
+                        - generic: বেচার খাতা
+                    - link:
+                      - /url: /due
+                      - generic:
+                        - generic: বাকির খাতা
+                    - link:
+                      - /url: /expense
+                      - generic:
+                        - generic: খরচের খাতা
+                    - link:
+                      - /url: /contact
+                      - generic:
+                        - generic: যোগাযোগ
+                    - link:
+                      - /url: /tutorial
+                      - generic:
+                        - generic: অ্যাপ ট্রেনিং
+                    - link:
+                      - /url: /product
+                      - generic:
+                        - generic: প্রোডাক্ট লিস্ট
+                    - link:
+                      - /url: /stock
+                      - generic:
+                        - generic: স্টকের হিসাব
+                    - link:
+                      - /url: /access-management
+                      - generic:
+                        - generic: অ্যাপ অ্যাক্সেস
+                    - link:
+                      - /url: /printer
+                      - generic:
+                        - generic: প্রিন্টার
+                    - link:
+                      - /url: /business-overview
+                      - generic:
+                        - generic: ব্যবসার রিপোর্ট
+                    - link:
+                      - /url: /sms
+                      - generic:
+                        - generic: মার্কেটিং
+                    - link:
+                      - /url: /online-shop
+                      - generic:
+                        - generic: অনলাইন শপ
+                    - link:
+                      - /url: /expired-product?expired=false
+                      - generic:
+                        - generic: মেয়াদোত্তীর্ণ পণ্য
+                    - link:
+                      - /url: /warranty-product
+                      - generic:
+                        - generic: ওয়ারেন্টি পণ্য
+                    - link:
+                      - /url: /recycle-bin
+                      - generic:
+                        - generic: রিসাইকেল বিন
+        - main:
+          - generic:
+            - navigation:
+              - generic:
+                - button:
+                  - img
+              - generic:
+                - generic:
+                  - button:
+                    - img
+                  - button:
+                    - img
+                  - button:
+                    - img
+                    - generic: সেটিংস
+                - generic:
+                  - generic:
+                    - img
+                  - generic: test
+                  - img
+            - generic:
+              - list:
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /home
+                      - text: Home
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=1]: ড্যাশবোর্ড
+                  - generic:
+                    - generic: মোবাইল ভিউ
+                    - switch [checked]
+                - generic:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: /cashbox
+                        - generic:
+                          - generic:
+                            - img
+                            - paragraph: "ব্যালেন্স:"
+                            - generic: ৳ ৫৫,৫৫,৭৩,১৭৮.২
+                    - generic:
+                      - generic:
+                        - tablist:
+                          - tab [selected]: আজকের
+                          - tab: সপ্তাহের
+                          - tab: মাসের
+                          - tab: বছরের
+                          - tab: অল টাইম
+                      - button:
+                        - generic:
+                          - img
+                          - paragraph: রিফ্রেশ
+                  - generic:
+                    - link:
+                      - /url: /sell-list
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: আজকের বিক্রি
+                            - img
+                          - paragraph: ৳ ৫৪৫
+                    - link:
+                      - /url: /purchase-list
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: আজকের ক্রয়
+                            - img
+                          - paragraph: ৳ ৩২০
+                    - link:
+                      - /url: /expense
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: আজকের খরচ
+                            - img
+                          - paragraph: ৳ ০
+                    - link:
+                      - /url: /stock
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: মোট মজুদ
+                            - img
+                          - paragraph: ১০০৯৯১০.৯৯
+                    - link:
+                      - /url: /due
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: মোট পাবো
+                            - img
+                          - paragraph: ৳ ৫৯,৯০১.০৫
+                    - link:
+                      - /url: /due
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: মোট দিবো
+                            - img
+                          - paragraph: ৳ ৬,০০৪
+                  - generic:
+                    - button:
+                      - img
+                      - generic: কেনা
+                    - button:
+                      - img
+                      - generic: বেচা
+                    - button:
+                      - img
+                      - generic: দ্রুত বেচা
+                  - generic:
+                    - generic:
+                      - generic: খাতা সমূহ
+                      - generic:
+                        - button:
+                          - img
+                          - generic: কেনার খাতা
+                        - button:
+                          - img
+                          - generic: বেচার খাতা
+                        - button:
+                          - img
+                          - generic: বাকির খাতা
+                        - button:
+                          - img
+                          - generic: খরচের খাতা
+                    - generic:
+                      - generic: আপনার ব্যবসার জন্য
+                      - generic:
+                        - button:
+                          - img
+                          - generic: যোগাযোগ
+                        - button:
+                          - img
+                          - generic: প্রোডাক্ট লিস্ট
+                        - button:
+                          - img
+                          - generic: স্টকের হিসাব
+                        - button:
+                          - img
+                          - generic: ব্যবসার রিপোর্ট
+                    - generic:
+                      - generic: অন্যান্য
+                      - generic:
+                        - button:
+                          - img
+                          - generic: ক্যাশবক্স
+                        - button:
+                          - img
+                          - generic: অ্যাপ ট্রেনিং
+                        - button:
+                          - img
+                          - generic: অ্যাপ অ্যাক্সেস
+                        - button:
+                          - img
+                          - generic: প্রিন্টার
+                        - button:
+                          - img
+                          - generic: মার্কেটিং
+                        - button:
+                          - img
+                          - generic: অনলাইন শপ
+                        - button:
+                          - img
+                          - generic: মেয়াদোত্তীর্ণ পণ্য
+                        - button:
+                          - img
+                          - generic: ওয়ারেন্টি পণ্য
+                        - button:
+                          - img
+                          - generic: রিসাইকেল বিন
+    - region "Notifications alt+T"
+  - dialog "Title" [ref=e2]:
+    - heading "Quick Sell" [level=2] [ref=e3]
+    - generic [ref=e4]:
+      - heading "Title" [level=2] [ref=e5]
+      - heading "Quick Sell" [level=2] [ref=e6]:
+        - paragraph [ref=e7]: Quick Sell
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]: বিক্রির তারিখঃ
+        - button "বিক্রির তারিখঃ" [ref=e12] [cursor=pointer]:
+          - text: April 5th, 2026
+          - img [ref=e13]
+      - generic [ref=e15]:
+        - text: মূল্য পরিশোধ পদ্ধতি
+        - radiogroup [ref=e16]:
+          - generic [ref=e17]:
+            - radio "নগদ টাকা" [checked] [disabled] [ref=e18]:
+              - img [ref=e20]
+            - radio [checked] [disabled]
+            - paragraph [ref=e23]: নগদ টাকা
+      - generic [ref=e24]:
+        - generic [ref=e25]: টাকার পরিমান *
+        - spinbutton "টাকার পরিমান *" [ref=e26]: "500"
+      - generic [ref=e27]:
+        - generic [ref=e28]: লাভ
+        - spinbutton "লাভ" [active] [ref=e29]: "20"
+      - generic [ref=e30]:
+        - generic [ref=e31]: কাস্টমার নাম
+        - generic [ref=e32]:
+          - textbox "কাস্টমার নাম" [ref=e33]
+          - combobox [ref=e35] [cursor=pointer]:
+            - img [ref=e36]
+      - generic [ref=e41]:
+        - generic [ref=e42]: কাস্টমার মোবাইল নম্বর
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - button "Bangladesh" [ref=e45] [cursor=pointer]:
+              - img "Bangladesh" [ref=e46]
+              - img [ref=e47]
+            - generic [ref=e49]: "+88"
+          - spinbutton [ref=e50]
+      - generic [ref=e51]:
+        - textbox "মন্তব্য লিখুন" [ref=e53]
+        - img [ref=e57] [cursor=pointer]
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - switch [ref=e64] [cursor=pointer]
+            - checkbox
+          - paragraph [ref=e65]: ম্যাসেজ পাঠান
+          - paragraph [ref=e66]:
+            - img [ref=e67]
+            - text: "এসএমএস অবশিষ্ট: 2"
+        - button "টাকার মূল্য পেয়েছেন" [ref=e69] [cursor=pointer]
+    - paragraph [ref=e70]: description
+    - button "Close" [ref=e71] [cursor=pointer]:
+      - img [ref=e72]
+      - generic [ref=e75]: Close
+```
