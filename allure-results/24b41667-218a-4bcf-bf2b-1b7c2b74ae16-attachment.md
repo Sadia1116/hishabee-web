@@ -1,0 +1,225 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - link "logo" [ref=e6] [cursor=pointer]:
+        - /url: /home
+        - img "logo" [ref=e7]
+      - navigation [ref=e8]:
+        - list [ref=e9]:
+          - generic [ref=e12]:
+            - link "হোম" [ref=e13] [cursor=pointer]:
+              - /url: /home
+              - generic [ref=e14]:
+                - generic: হোম
+            - link "কেনা" [ref=e15] [cursor=pointer]:
+              - /url: /purchase
+              - generic [ref=e16]:
+                - generic: কেনা
+            - link "বেচা" [ref=e17] [cursor=pointer]:
+              - /url: /sell
+              - generic [ref=e18]:
+                - generic: বেচা
+            - link "ক্যাশবক্স" [ref=e19] [cursor=pointer]:
+              - /url: /cashbox
+              - generic [ref=e20]:
+                - generic: ক্যাশবক্স
+            - button "দ্রুত বেচা" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]:
+                - generic: দ্রুত বেচা
+            - link "কেনার খাতা" [ref=e24] [cursor=pointer]:
+              - /url: /purchase-list
+              - generic [ref=e25]:
+                - generic: কেনার খাতা
+            - link "বেচার খাতা" [ref=e26] [cursor=pointer]:
+              - /url: /sell-list
+              - generic [ref=e27]:
+                - generic: বেচার খাতা
+            - link "বাকির খাতা" [ref=e28] [cursor=pointer]:
+              - /url: /due
+              - generic [ref=e29]:
+                - generic: বাকির খাতা
+            - link "খরচের খাতা" [ref=e30] [cursor=pointer]:
+              - /url: /expense
+              - generic [ref=e31]:
+                - generic: খরচের খাতা
+            - link "যোগাযোগ" [ref=e32] [cursor=pointer]:
+              - /url: /contact
+              - generic [ref=e33]:
+                - generic: যোগাযোগ
+            - link "অ্যাপ ট্রেনিং" [ref=e34] [cursor=pointer]:
+              - /url: /tutorial
+              - generic [ref=e35]:
+                - generic: অ্যাপ ট্রেনিং
+            - link "প্রোডাক্ট লিস্ট" [ref=e37] [cursor=pointer]:
+              - /url: /product
+              - generic [ref=e38]:
+                - generic: প্রোডাক্ট লিস্ট
+            - link "স্টকের হিসাব" [ref=e39] [cursor=pointer]:
+              - /url: /stock
+              - generic [ref=e40]:
+                - generic: স্টকের হিসাব
+            - link "অ্যাপ অ্যাক্সেস" [ref=e41] [cursor=pointer]:
+              - /url: /access-management
+              - generic [ref=e42]:
+                - generic: অ্যাপ অ্যাক্সেস
+            - link "প্রিন্টার" [ref=e43] [cursor=pointer]:
+              - /url: /printer
+              - generic [ref=e44]:
+                - generic: প্রিন্টার
+            - link "ব্যবসার রিপোর্ট" [ref=e45] [cursor=pointer]:
+              - /url: /business-overview
+              - generic [ref=e46]:
+                - generic: ব্যবসার রিপোর্ট
+            - link "মার্কেটিং" [ref=e48] [cursor=pointer]:
+              - /url: /sms
+              - generic [ref=e49]:
+                - generic: মার্কেটিং
+            - link "অনলাইন শপ" [ref=e50] [cursor=pointer]:
+              - /url: /online-shop
+              - generic [ref=e51]:
+                - generic: অনলাইন শপ
+            - link "মেয়াদোত্তীর্ণ পণ্য" [ref=e52] [cursor=pointer]:
+              - /url: /expired-product?expired=false
+              - generic [ref=e53]:
+                - generic: মেয়াদোত্তীর্ণ পণ্য
+            - link "ওয়ারেন্টি পণ্য" [ref=e54] [cursor=pointer]:
+              - /url: /warranty-product
+              - generic [ref=e55]:
+                - generic: ওয়ারেন্টি পণ্য
+            - link "রিসাইকেল বিন" [ref=e56] [cursor=pointer]:
+              - /url: /recycle-bin
+              - generic [ref=e57]:
+                - generic: রিসাইকেল বিন
+    - main [ref=e59]:
+      - generic [ref=e60]:
+        - navigation [ref=e61]:
+          - button [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - button [ref=e69] [cursor=pointer]:
+                - img [ref=e70]
+              - button [ref=e72] [cursor=pointer]:
+                - img [ref=e73]
+              - button "সেটিংস" [ref=e77] [cursor=pointer]:
+                - img [ref=e78]
+                - generic [ref=e80]: সেটিংস
+            - generic [ref=e81] [cursor=pointer]:
+              - img "photo" [ref=e83]
+              - generic [ref=e84]: test
+              - img [ref=e85]
+        - list [ref=e88]:
+          - listitem [ref=e89]:
+            - link "Online-shop" [active] [ref=e91] [cursor=pointer]:
+              - /url: /online-shop
+      - generic [ref=e95]:
+        - generic [ref=e97]:
+          - generic [ref=e99]:
+            - generic [ref=e102] [cursor=pointer]:
+              - img [ref=e103]
+              - paragraph [ref=e104]:
+                - generic [ref=e105]:
+                  - text: আরও জানুন
+                  - img [ref=e106]
+            - generic [ref=e110] [cursor=pointer]:
+              - img [ref=e111]
+              - paragraph [ref=e112]:
+                - generic [ref=e113]:
+                  - text: আরও জানুন
+                  - img [ref=e114]
+            - generic [ref=e118] [cursor=pointer]:
+              - img "banner" [ref=e119]
+              - paragraph [ref=e120]:
+                - generic [ref=e121]:
+                  - text: আরও জানুন
+                  - img [ref=e122]
+            - generic [ref=e126] [cursor=pointer]:
+              - img [ref=e127]
+              - paragraph [ref=e128]:
+                - generic [ref=e129]:
+                  - text: আরও জানুন
+                  - img [ref=e130]
+            - generic [ref=e134] [cursor=pointer]:
+              - img [ref=e135]
+              - paragraph [ref=e136]:
+                - generic [ref=e137]:
+                  - text: আরও জানুন
+                  - img [ref=e138]
+          - list [ref=e140]:
+            - listitem [ref=e141] [cursor=pointer]:
+              - button "• 1" [ref=e142]
+            - listitem [ref=e143] [cursor=pointer]:
+              - button "• 2" [ref=e144]
+            - listitem [ref=e145] [cursor=pointer]:
+              - button "• 3" [ref=e146]
+        - separator [ref=e147]
+        - generic [ref=e148]:
+          - generic [ref=e151]:
+            - paragraph [ref=e152]: অ্যাকটিভ অর্ডার
+            - paragraph [ref=e153]: ০
+          - generic [ref=e156]:
+            - paragraph [ref=e157]: অনলাইন প্রোডাক্ট
+            - paragraph [ref=e158]: ৭৩
+          - generic [ref=e161]:
+            - paragraph [ref=e162]: আয় করেছেন
+            - paragraph [ref=e163]: ৳ ০
+          - generic [ref=e166]:
+            - paragraph [ref=e167]: ওয়েবসাইট ভিজিট
+            - paragraph [ref=e168]: ১১৩২৯
+        - separator [ref=e169]
+        - generic [ref=e170]:
+          - button "ওয়েবসাইট" [ref=e171] [cursor=pointer]:
+            - img [ref=e173]
+            - generic [ref=e178]: ওয়েবসাইট
+          - button "লিংক কপি" [ref=e179] [cursor=pointer]:
+            - img [ref=e181]
+            - generic [ref=e183]: লিংক কপি
+          - button "QR কোড" [ref=e184] [cursor=pointer]:
+            - img [ref=e186]
+            - generic [ref=e188]: QR কোড
+        - separator [ref=e189]
+        - generic [ref=e190]:
+          - link "মেসেজ" [ref=e192] [cursor=pointer]:
+            - /url: /online-shop/messages
+            - paragraph [ref=e195]: মেসেজ
+          - link "স্টোর সেটিংস" [ref=e197] [cursor=pointer]:
+            - /url: /online-shop/settings
+            - paragraph [ref=e200]: স্টোর সেটিংস
+          - link "অনলাইন প্রোডাক্ট" [ref=e202] [cursor=pointer]:
+            - /url: /online-shop/products?tab=published
+            - paragraph [ref=e205]: অনলাইন প্রোডাক্ট
+          - link "অর্ডার লিস্ট" [ref=e207] [cursor=pointer]:
+            - /url: /online-shop/orders
+            - paragraph [ref=e210]: অর্ডার লিস্ট
+          - link "থিমস" [ref=e212] [cursor=pointer]:
+            - /url: /online-shop/themes
+            - paragraph [ref=e215]: থিমস
+          - link "নিজস্ব ডোমেইন" [ref=e217] [cursor=pointer]:
+            - /url: /online-shop/own-domain
+            - paragraph [ref=e220]: নিজস্ব ডোমেইন
+          - link "ডেলিভারি মাধ্যম" [ref=e222] [cursor=pointer]:
+            - /url: /online-shop/delivery
+            - paragraph [ref=e225]: ডেলিভারি মাধ্যম
+          - link "অ্যাপ বিল্ড করুন" [ref=e227] [cursor=pointer]:
+            - /url: /online-shop/build-app
+            - paragraph [ref=e230]: অ্যাপ বিল্ড করুন
+          - link "ফিচারড পণ্য" [ref=e232] [cursor=pointer]:
+            - /url: /online-shop/featured-product
+            - paragraph [ref=e235]: ফিচারড পণ্য
+          - link "মার্কেটিং & SEO" [ref=e237] [cursor=pointer]:
+            - /url: /online-shop/marketing-seo
+            - paragraph [ref=e240]: মার্কেটিং & SEO
+          - link "শপ পলিসি" [ref=e242] [cursor=pointer]:
+            - /url: /online-shop/shop-policy
+            - paragraph [ref=e245]: শপ পলিসি
+          - link "ফ্রড চেক" [ref=e247] [cursor=pointer]:
+            - /url: /online-shop/fraud-check
+            - paragraph [ref=e250]: ফ্রড চেক
+          - link "প্রোমো কোড" [ref=e252] [cursor=pointer]:
+            - /url: /online-shop/promo-codes
+            - paragraph [ref=e255]: প্রোমো কোড
+  - region "Notifications alt+T"
+```
