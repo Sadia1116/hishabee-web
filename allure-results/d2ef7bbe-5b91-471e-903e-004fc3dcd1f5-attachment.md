@@ -1,0 +1,48 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - generic [ref=e7] [cursor=pointer]: লগআউট
+    - generic [ref=e9]:
+      - img "logo" [ref=e10]
+      - paragraph [ref=e11]: দোকান সিলেক্ট করুন
+      - generic [ref=e12]:
+        - generic [ref=e14]:
+          - img "Sadia's kitchen (qa test shop)" [ref=e15]
+          - paragraph [ref=e16]: Sadia's kitchen (qa test shop)
+          - paragraph [ref=e17]: cvg
+          - button "সিলেক্ট করুন" [active] [ref=e18] [cursor=pointer]:
+            - paragraph [ref=e19]: সিলেক্ট করুন
+        - generic [ref=e21]:
+          - img "Sadia's kitchen (qa test shop)" [ref=e22]
+          - paragraph [ref=e23]: Sadia's kitchen (qa test shop)
+          - paragraph [ref=e24]: dhaka
+          - button "সিলেক্ট করুন" [ref=e25] [cursor=pointer]:
+            - paragraph [ref=e26]: সিলেক্ট করুন
+        - generic [ref=e28]:
+          - img "Sadia's kitchen (qa test shop) 2" [ref=e29]
+          - paragraph [ref=e30]: Sadia's kitchen (qa test shop) 2
+          - paragraph [ref=e31]: test
+          - button "সিলেক্ট করুন" [ref=e32] [cursor=pointer]:
+            - paragraph [ref=e33]: সিলেক্ট করুন
+        - generic [ref=e35]:
+          - img [ref=e38]
+          - paragraph [ref=e41]: pybrpb
+          - paragraph [ref=e42]: Shop-16, Nurjahan Road, Mohammadpur , Dhaka.
+          - button "সিলেক্ট করুন" [ref=e43] [cursor=pointer]:
+            - paragraph [ref=e44]: সিলেক্ট করুন
+        - generic [ref=e46]:
+          - img "Sadia's kitchen (qa test shop) 4" [ref=e47]
+          - paragraph [ref=e48]: Sadia's kitchen (qa test shop) 4
+          - paragraph [ref=e49]: dhaka
+          - button "সিলেক্ট করুন" [ref=e50] [cursor=pointer]:
+            - paragraph [ref=e51]: সিলেক্ট করুন
+        - link "নতুন দোকান যুক্ত করুন" [ref=e53] [cursor=pointer]:
+          - /url: /shop/add
+          - button "নতুন দোকান যুক্ত করুন" [ref=e54]:
+            - img [ref=e55]
+            - paragraph [ref=e57]: নতুন দোকান যুক্ত করুন
+      - paragraph [ref=e58]: Copyright Hishabee 2025
+  - region "Notifications alt+T"
+```
