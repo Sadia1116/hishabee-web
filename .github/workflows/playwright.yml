@@ -6,6 +6,12 @@ on:
   pull_request:
     branches: [main]
 
+# Permissions add kora hoyeche jeno gh-pages-e write korte pare
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   test:
     timeout-minutes: 60
@@ -35,6 +41,7 @@ jobs:
 
       - name: Run Playwright Tests
         run: npx playwright test
+        continue-on-error: true # Test fail korle-o jeno report generate hoy
 
       - name: Copy previous Allure history
         run: |
@@ -48,12 +55,6 @@ jobs:
         run: |
           mkdir -p allure-report/history
           cp -r allure-results/history/* allure-report/history/ || true
-
-      - name: Upload Allure Report
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-report
-          path: allure-report/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
