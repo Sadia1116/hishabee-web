@@ -1,0 +1,375 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - complementary:
+          - generic:
+            - link:
+              - /url: /home
+              - img
+          - navigation:
+            - list:
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /home
+                      - generic:
+                        - generic: হোম
+                    - link:
+                      - /url: /purchase
+                      - generic:
+                        - generic: কেনা
+                    - link:
+                      - /url: /sell
+                      - generic:
+                        - generic: বেচা
+                    - link:
+                      - /url: /cashbox
+                      - generic:
+                        - generic: ক্যাশবক্স
+                    - button:
+                      - generic:
+                        - generic: দ্রুত বেচা
+                    - link:
+                      - /url: /purchase-list
+                      - generic:
+                        - generic: কেনার খাতা
+                    - link:
+                      - /url: /sell-list
+                      - generic:
+                        - generic: বেচার খাতা
+                    - link:
+                      - /url: /due
+                      - generic:
+                        - generic: বাকির খাতা
+                    - link:
+                      - /url: /expense
+                      - generic:
+                        - generic: খরচের খাতা
+                    - link:
+                      - /url: /contact
+                      - generic:
+                        - generic: যোগাযোগ
+                    - link:
+                      - /url: /tutorial
+                      - generic:
+                        - generic: অ্যাপ ট্রেনিং
+                    - link:
+                      - /url: /product
+                      - generic:
+                        - generic: প্রোডাক্ট লিস্ট
+                    - link:
+                      - /url: /stock
+                      - generic:
+                        - generic: স্টকের হিসাব
+                    - link:
+                      - /url: /access-management
+                      - generic:
+                        - generic: অ্যাপ অ্যাক্সেস
+                    - link:
+                      - /url: /printer
+                      - generic:
+                        - generic: প্রিন্টার
+                    - link:
+                      - /url: /business-overview
+                      - generic:
+                        - generic: ব্যবসার রিপোর্ট
+                    - link:
+                      - /url: /sms
+                      - generic:
+                        - generic: মার্কেটিং
+                    - link:
+                      - /url: /online-shop
+                      - generic:
+                        - generic: অনলাইন শপ
+                    - link:
+                      - /url: /expired-product?expired=false
+                      - generic:
+                        - generic: মেয়াদোত্তীর্ণ পণ্য
+                    - link:
+                      - /url: /warranty-product
+                      - generic:
+                        - generic: ওয়ারেন্টি পণ্য
+                    - link:
+                      - /url: /recycle-bin
+                      - generic:
+                        - generic: রিসাইকেল বিন
+        - main:
+          - generic:
+            - navigation:
+              - generic:
+                - button:
+                  - img
+              - generic:
+                - generic:
+                  - button:
+                    - img
+                  - button:
+                    - img
+                  - button:
+                    - img
+                    - generic: সেটিংস
+                - generic:
+                  - generic:
+                    - img
+                  - generic: test
+                  - img
+            - generic:
+              - list:
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /sell-list
+                      - text: Sell History
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: লেনদেনের ইতিহাস
+                  - generic:
+                    - button:
+                      - img
+                      - generic: ডাউনলোড/প্রিন্ট
+                    - generic:
+                      - paragraph: "মোট বিক্রি : ৳ ৮,৫০০"
+                - generic:
+                  - generic:
+                    - generic:
+                      - searchbox
+                      - generic:
+                        - img
+                  - generic:
+                    - button:
+                      - img
+                      - text: Apr 01, 2026 - Apr 30, 2026
+                  - combobox:
+                    - generic: 10 per page
+                    - img
+                  - button:
+                    - generic:
+                      - img
+                      - paragraph: রিফ্রেশ
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - table:
+                          - rowgroup:
+                            - row:
+                              - columnheader: যোগাযোগ
+                              - columnheader: ইনভয়েস নং
+                              - columnheader: আইটেম
+                              - columnheader: টাকার পরিমান
+                              - columnheader: তারিখ
+                              - columnheader: পেমেন্ট অবস্থা
+                              - columnheader: Action
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KP0QV
+                              - cell: ১
+                              - cell: ৳ ৫০
+                              - cell: ১২ এপ্রিল ২০২৬, ০৫:৪০ PM
+                              - cell:
+                                - paragraph: নগদ টাকা
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KP0QT
+                              - cell: ১
+                              - cell: ৳ ২০০
+                              - cell: ১২ এপ্রিল ২০২৬, ০৫:৩৯ PM
+                              - cell:
+                                - paragraph: দ্রুত বিক্রি
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KP0QT
+                              - cell: ১
+                              - cell: ৳ ৫০০
+                              - cell: ১২ এপ্রিল ২০২৬, ০৫:৩৯ PM
+                              - cell:
+                                - paragraph: দ্রুত বিক্রি
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: Test User
+                                - generic: +88 01700000000
+                              - cell: 01KP0QS
+                              - cell: ১
+                              - cell: ৳ ৬০০
+                              - cell: ১২ এপ্রিল ২০২৬, ০৫:৩৯ PM
+                              - cell:
+                                - paragraph: দ্রুত বিক্রি
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: Test User
+                                - generic: +88 01700000000
+                              - cell: 01KP0HR
+                              - cell: ১
+                              - cell: ৳ ৬০০
+                              - cell: ১২ এপ্রিল ২০২৬, ০৩:৫৩ PM
+                              - cell:
+                                - paragraph: দ্রুত বিক্রি
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KP0HR
+                              - cell: ১
+                              - cell: ৳ ৫০০
+                              - cell: ১২ এপ্রিল ২০২৬, ০৩:৫৩ PM
+                              - cell:
+                                - paragraph: দ্রুত বিক্রি
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KP0HQ
+                              - cell: ১
+                              - cell: ৳ ২০০
+                              - cell: ১২ এপ্রিল ২০২৬, ০৩:৫২ PM
+                              - cell:
+                                - paragraph: দ্রুত বিক্রি
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KP0HQ
+                              - cell: ১
+                              - cell: ৳ ৪০০
+                              - cell: ১২ এপ্রিল ২০২৬, ০৩:৫২ PM
+                              - cell:
+                                - paragraph: দ্রুত বিক্রি
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KP0HP
+                              - cell: ১
+                              - cell: ৳ ৪০০
+                              - cell: ১২ এপ্রিল ২০২৬, ০৩:৫২ PM
+                              - cell:
+                                - paragraph: দ্রুত বিক্রি
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KP0HN
+                              - cell: ১
+                              - cell: ৳ ২০০
+                              - cell: ১২ এপ্রিল ২০২৬, ০৩:৫২ PM
+                              - cell:
+                                - paragraph: দ্রুত বিক্রি
+                              - cell:
+                                - button:
+                                  - img
+                          - rowgroup:
+                            - row:
+                              - cell: Showing 1 to 10 of 17 Transactions
+                - generic:
+                  - generic:
+                    - generic:
+                      - button [disabled]:
+                        - img
+                      - button [disabled]:
+                        - img
+                      - generic:
+                        - generic:
+                          - button: "1"
+                        - generic:
+                          - button: "2"
+                      - button:
+                        - img
+                      - button:
+                        - img
+    - region "Notifications alt+T"
+  - dialog "Title" [ref=e2]:
+    - heading "Transaction Details" [level=2] [ref=e3]
+    - generic [ref=e4]:
+      - heading "Title" [level=2] [ref=e5]
+      - heading "Transaction Details" [level=2] [ref=e6]:
+        - paragraph [ref=e7]: Transaction Details
+    - generic [ref=e9]:
+      - button "প্রিন্ট করুন" [active] [ref=e11] [cursor=pointer]:
+        - paragraph [ref=e12]: প্রিন্ট করুন
+      - generic [ref=e13]:
+        - paragraph [ref=e14]: "মোট আইটেম: 1"
+        - paragraph [ref=e15]: বিক্রয় তারিখঃ 2026-04-12 17:40:06
+      - article [ref=e16]:
+        - article [ref=e17]:
+          - paragraph [ref=e18]: "পেমেন্ট : ৳ ৫০"
+          - article [ref=e19]:
+            - paragraph [ref=e20]: নগদ টাকা
+        - article [ref=e21]:
+          - paragraph [ref=e22]: মোট
+          - paragraph [ref=e23]: ৳ ৫০
+        - article [ref=e24]:
+          - paragraph [ref=e25]: ডেলিভারী চার্জ
+          - paragraph [ref=e26]: ৳ ০
+        - article [ref=e27]:
+          - paragraph [ref=e28]: ডিস্কাউন্ট
+          - paragraph [ref=e29]: ৳ ০
+        - article [ref=e30]:
+          - paragraph [ref=e31]: সর্বমোট
+          - paragraph [ref=e32]: ৳ ৫০
+      - generic [ref=e33]:
+        - paragraph [ref=e34]: পণ্য বিক্রি
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - img [ref=e38]
+            - paragraph [ref=e42]: pen
+          - article [ref=e43]:
+            - paragraph [ref=e44]: "পরিমাণ : ১.০০"
+            - paragraph [ref=e45]: "মূল্য : ৳ ৫০"
+            - paragraph [ref=e46]: "মোট : ৳ ৫০"
+        - button "Return Product" [ref=e48] [cursor=pointer]
+      - article [ref=e49]:
+        - paragraph [ref=e50]: Notes
+        - paragraph [ref=e51]: pen
+      - generic [ref=e53]:
+        - button "মুছে ফেলুন" [ref=e54] [cursor=pointer]:
+          - img [ref=e55]
+          - text: মুছে ফেলুন
+        - button "লেনদেনের এডিট" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+          - text: লেনদেনের এডিট
+    - paragraph [ref=e60]: description
+    - button "Close" [ref=e61] [cursor=pointer]:
+      - img [ref=e62]
+      - generic [ref=e65]: Close
+```

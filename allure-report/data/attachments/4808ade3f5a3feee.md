@@ -1,0 +1,96 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - generic [ref=e7] [cursor=pointer]: লগআউট
+    - generic [ref=e9]:
+      - img "logo" [ref=e10]
+      - paragraph [ref=e11]: দোকান সিলেক্ট করুন
+      - generic [ref=e12]:
+        - generic [ref=e14]:
+          - img "Sadia's kitchen (qa test shop)" [ref=e15]
+          - paragraph [ref=e16]: Sadia's kitchen (qa test shop)
+          - paragraph [ref=e17]: cvg
+          - button "সিলেক্ট করুন" [ref=e18] [cursor=pointer]:
+            - paragraph [ref=e19]: সিলেক্ট করুন
+        - generic [ref=e21]:
+          - img "Sadia's kitchen (qa test shop)" [ref=e22]
+          - paragraph [ref=e23]: Sadia's kitchen (qa test shop)
+          - paragraph [ref=e24]: dhaka
+          - button "সিলেক্ট করুন" [ref=e25] [cursor=pointer]:
+            - paragraph [ref=e26]: সিলেক্ট করুন
+        - generic [ref=e28]:
+          - img "Sadia's kitchen (qa test shop) 2" [ref=e29]
+          - paragraph [ref=e30]: Sadia's kitchen (qa test shop) 2
+          - paragraph [ref=e31]: test
+          - button "সিলেক্ট করুন" [ref=e32] [cursor=pointer]:
+            - paragraph [ref=e33]: সিলেক্ট করুন
+        - generic [ref=e35]:
+          - img [ref=e38]
+          - paragraph [ref=e41]: pybrpb
+          - paragraph [ref=e42]: Shop-16, Nurjahan Road, Mohammadpur , Dhaka.
+          - button "সিলেক্ট করুন" [ref=e43] [cursor=pointer]:
+            - paragraph [ref=e44]: সিলেক্ট করুন
+        - generic [ref=e46]:
+          - img "Sadia's kitchen (qa test shop) 4" [ref=e47]
+          - paragraph [ref=e48]: Sadia's kitchen (qa test shop) 4
+          - paragraph [ref=e49]: dhaka
+          - button "সিলেক্ট করুন" [ref=e50] [cursor=pointer]:
+            - paragraph [ref=e51]: সিলেক্ট করুন
+        - generic [ref=e53]:
+          - img "Test 6" [ref=e54]
+          - paragraph [ref=e55]: Test 6
+          - paragraph [ref=e56]: Dhaka
+          - button "সিলেক্ট করুন" [ref=e57] [cursor=pointer]:
+            - paragraph [ref=e58]: সিলেক্ট করুন
+        - generic [ref=e60]:
+          - img "Test7" [ref=e61]
+          - paragraph [ref=e62]: Test7
+          - paragraph [ref=e63]: Dhaka
+          - button "সিলেক্ট করুন" [ref=e64] [cursor=pointer]:
+            - paragraph [ref=e65]: সিলেক্ট করুন
+        - generic [ref=e67]:
+          - img "Test 8" [ref=e68]
+          - paragraph [ref=e69]: Test 8
+          - paragraph [ref=e70]: Test
+          - button "সিলেক্ট করুন" [ref=e71] [cursor=pointer]:
+            - paragraph [ref=e72]: সিলেক্ট করুন
+        - generic [ref=e74]:
+          - img "Test 9" [ref=e75]
+          - paragraph [ref=e76]: Test 9
+          - paragraph [ref=e77]: Dhaka
+          - button "সিলেক্ট করুন" [ref=e78] [cursor=pointer]:
+            - paragraph [ref=e79]: সিলেক্ট করুন
+        - generic [ref=e81]:
+          - img "Test 10" [ref=e82]
+          - paragraph [ref=e83]: Test 10
+          - paragraph [ref=e84]: Test
+          - button "সিলেক্ট করুন" [ref=e85] [cursor=pointer]:
+            - paragraph [ref=e86]: সিলেক্ট করুন
+        - generic [ref=e88]:
+          - img "Test 11" [ref=e89]
+          - paragraph [ref=e90]: Test 11
+          - paragraph [ref=e91]: Dhaka
+          - button "সিলেক্ট করুন" [ref=e92] [cursor=pointer]:
+            - paragraph [ref=e93]: সিলেক্ট করুন
+        - generic [ref=e95]:
+          - img "Test 12" [ref=e96]
+          - paragraph [ref=e97]: Test 12
+          - paragraph [ref=e98]: Dft
+          - button "সিলেক্ট করুন" [ref=e99] [cursor=pointer]:
+            - paragraph [ref=e100]: সিলেক্ট করুন
+        - generic [ref=e102]:
+          - img "qa test shop ........." [ref=e103]
+          - paragraph [ref=e104]: qa test shop .........
+          - paragraph [ref=e105]: ghh
+          - button "সিলেক্ট করুন" [ref=e106] [cursor=pointer]:
+            - paragraph [ref=e107]: সিলেক্ট করুন
+        - link "নতুন দোকান যুক্ত করুন" [ref=e109] [cursor=pointer]:
+          - /url: /shop/add
+          - button "নতুন দোকান যুক্ত করুন" [ref=e110]:
+            - img [ref=e111]
+            - paragraph [ref=e113]: নতুন দোকান যুক্ত করুন
+      - paragraph [ref=e114]: Copyright Hishabee 2025
+  - region "Notifications alt+T"
+```

@@ -1,0 +1,348 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - complementary:
+          - generic:
+            - link:
+              - /url: /home
+              - img
+          - navigation:
+            - list:
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /home
+                      - generic:
+                        - generic: হোম
+                    - link:
+                      - /url: /purchase
+                      - generic:
+                        - generic: কেনা
+                    - link:
+                      - /url: /sell
+                      - generic:
+                        - generic: বেচা
+                    - link:
+                      - /url: /cashbox
+                      - generic:
+                        - generic: ক্যাশবক্স
+                    - button:
+                      - generic:
+                        - generic: দ্রুত বেচা
+                    - link:
+                      - /url: /purchase-list
+                      - generic:
+                        - generic: কেনার খাতা
+                    - link:
+                      - /url: /sell-list
+                      - generic:
+                        - generic: বেচার খাতা
+                    - link:
+                      - /url: /due
+                      - generic:
+                        - generic: বাকির খাতা
+                    - link:
+                      - /url: /expense
+                      - generic:
+                        - generic: খরচের খাতা
+                    - link:
+                      - /url: /contact
+                      - generic:
+                        - generic: যোগাযোগ
+                    - link:
+                      - /url: /tutorial
+                      - generic:
+                        - generic: অ্যাপ ট্রেনিং
+                    - link:
+                      - /url: /product
+                      - generic:
+                        - generic: প্রোডাক্ট লিস্ট
+                    - link:
+                      - /url: /stock
+                      - generic:
+                        - generic: স্টকের হিসাব
+                    - link:
+                      - /url: /access-management
+                      - generic:
+                        - generic: অ্যাপ অ্যাক্সেস
+                    - link:
+                      - /url: /printer
+                      - generic:
+                        - generic: প্রিন্টার
+                    - link:
+                      - /url: /business-overview
+                      - generic:
+                        - generic: ব্যবসার রিপোর্ট
+                    - link:
+                      - /url: /sms
+                      - generic:
+                        - generic: মার্কেটিং
+                    - link:
+                      - /url: /online-shop
+                      - generic:
+                        - generic: অনলাইন শপ
+                    - link:
+                      - /url: /expired-product?expired=false
+                      - generic:
+                        - generic: মেয়াদোত্তীর্ণ পণ্য
+                    - link:
+                      - /url: /warranty-product
+                      - generic:
+                        - generic: ওয়ারেন্টি পণ্য
+                    - link:
+                      - /url: /recycle-bin
+                      - generic:
+                        - generic: রিসাইকেল বিন
+        - main:
+          - generic:
+            - navigation:
+              - generic:
+                - button:
+                  - img
+              - generic:
+                - generic:
+                  - button:
+                    - img
+                  - button:
+                    - img
+                  - button:
+                    - img
+                    - generic: সেটিংস
+                - generic:
+                  - generic:
+                    - img
+                  - generic: test
+                  - img
+            - generic:
+              - list:
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /purchase-list
+                      - text: Purchase History
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: লেনদেনের ইতিহাস
+                  - generic:
+                    - button:
+                      - img
+                      - generic: ডাউনলোড/প্রিন্ট
+                    - generic:
+                      - paragraph: "মোট ক্রয় : ৳ ১,২৫০"
+                - generic:
+                  - generic:
+                    - generic:
+                      - searchbox
+                      - generic:
+                        - img
+                  - generic:
+                    - button:
+                      - img
+                      - text: Apr 01, 2026 - Apr 30, 2026
+                  - combobox [expanded]:
+                    - generic: 10 per page
+                    - img
+                  - button:
+                    - generic:
+                      - img
+                      - paragraph: রিফ্রেশ
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - table:
+                          - rowgroup:
+                            - row:
+                              - columnheader: যোগাযোগ
+                              - columnheader: ইনভয়েস নং
+                              - columnheader: ব্যাচ নং
+                              - columnheader: আইটেম
+                              - columnheader: টাকার পরিমান
+                              - columnheader: তারিখ
+                              - columnheader: পেমেন্ট অবস্থা
+                              - columnheader: Action
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KP0QH
+                              - cell: "--"
+                              - cell: ১
+                              - cell: ৳ ২০
+                              - cell: ১২ এপ্রিল ২০২৬, ০৫:৩৪ PM
+                              - cell:
+                                - paragraph: নগদ টাকা
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KP091
+                              - cell: "--"
+                              - cell: ১
+                              - cell: ৳ ২০
+                              - cell: ১২ এপ্রিল ২০২৬, ০১:২১ PM
+                              - cell:
+                                - paragraph: নগদ টাকা
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KP08Y
+                              - cell: "--"
+                              - cell: ১
+                              - cell: ৳ ২০
+                              - cell: ১২ এপ্রিল ২০২৬, ০১:১৯ PM
+                              - cell:
+                                - paragraph: নগদ টাকা
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KP08Y
+                              - cell: "--"
+                              - cell: ১
+                              - cell: ৳ ২০
+                              - cell: ১২ এপ্রিল ২০২৬, ০১:১৯ PM
+                              - cell:
+                                - paragraph: নগদ টাকা
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KNP0S
+                              - cell: "--"
+                              - cell: ১
+                              - cell: ৳ ২০
+                              - cell: ০৮ এপ্রিল ২০২৬, ০১:৪৪ PM
+                              - cell:
+                                - paragraph: নগদ টাকা
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KNP08
+                              - cell: "--"
+                              - cell: ১
+                              - cell: ৳ ২০
+                              - cell: ০৮ এপ্রিল ২০২৬, ০১:৩৫ PM
+                              - cell:
+                                - paragraph: নগদ টাকা
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KNP05
+                              - cell: "--"
+                              - cell: ১
+                              - cell: ৳ ২০
+                              - cell: ০৮ এপ্রিল ২০২৬, ০১:৩৩ PM
+                              - cell:
+                                - paragraph: নগদ টাকা
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KNP05
+                              - cell: "--"
+                              - cell: ১
+                              - cell: ৳ ২০
+                              - cell: ০৮ এপ্রিল ২০২৬, ০১:৩৩ PM
+                              - cell:
+                                - paragraph: নগদ টাকা
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KNKTQ
+                              - cell: "--"
+                              - cell: ১
+                              - cell: ৳ ২০
+                              - cell: ০৭ এপ্রিল ২০২৬, ০৫:২০ PM
+                              - cell:
+                                - paragraph: নগদ টাকা
+                              - cell:
+                                - button:
+                                  - img
+                            - row:
+                              - cell:
+                                - generic: "---"
+                                - generic: "---"
+                              - cell: 01KNKTP
+                              - cell: "--"
+                              - cell: ১
+                              - cell: ৳ ২০
+                              - cell: ০৭ এপ্রিল ২০২৬, ০৫:১৯ PM
+                              - cell:
+                                - paragraph: নগদ টাকা
+                              - cell:
+                                - button:
+                                  - img
+                          - rowgroup:
+                            - row:
+                              - cell: Showing 1 to10 of 33 Transactions
+                - generic:
+                  - generic:
+                    - generic:
+                      - button [disabled]:
+                        - img
+                      - button [disabled]:
+                        - img
+                      - generic:
+                        - generic:
+                          - button: "1"
+                        - generic:
+                          - button: "2"
+                        - generic:
+                          - button: "3"
+                        - generic:
+                          - button: "4"
+                      - button:
+                        - img
+                      - button:
+                        - img
+    - region "Notifications alt+T"
+  - listbox [ref=e1]:
+    - option "10 per page" [active] [selected] [ref=e2]:
+      - img [ref=e5]
+      - generic [ref=e7]: 10 per page
+    - option "15 per page" [ref=e8]:
+      - generic [ref=e10]: 15 per page
+    - option "20 per page" [ref=e11]:
+      - generic [ref=e13]: 20 per page
+    - option "30 per page" [ref=e14]:
+      - generic [ref=e16]: 30 per page
+    - option "All (33)" [ref=e17]:
+      - generic [ref=e19]: All (33)
+```

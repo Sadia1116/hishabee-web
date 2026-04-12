@@ -1,0 +1,443 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - link "logo" [ref=e7] [cursor=pointer]:
+        - /url: /home
+        - img "logo" [ref=e8]
+      - navigation [ref=e9]:
+        - list [ref=e10]:
+          - generic [ref=e13]:
+            - link "হোম" [ref=e14] [cursor=pointer]:
+              - /url: /home
+              - generic [ref=e16]: হোম
+            - link "কেনা" [ref=e17] [cursor=pointer]:
+              - /url: /purchase
+              - generic [ref=e19]: কেনা
+            - link "বেচা" [ref=e20] [cursor=pointer]:
+              - /url: /sell
+              - generic [ref=e22]: বেচা
+            - link "ক্যাশবক্স" [ref=e23] [cursor=pointer]:
+              - /url: /cashbox
+              - generic [ref=e25]: ক্যাশবক্স
+            - button "দ্রুত বেচা" [ref=e26] [cursor=pointer]:
+              - generic [ref=e28]: দ্রুত বেচা
+            - link "কেনার খাতা" [ref=e30] [cursor=pointer]:
+              - /url: /purchase-list
+              - generic [ref=e32]: কেনার খাতা
+            - link "বেচার খাতা" [ref=e33] [cursor=pointer]:
+              - /url: /sell-list
+              - generic [ref=e35]: বেচার খাতা
+            - link "বাকির খাতা" [ref=e36] [cursor=pointer]:
+              - /url: /due
+              - generic [ref=e38]: বাকির খাতা
+            - link "খরচের খাতা" [ref=e39] [cursor=pointer]:
+              - /url: /expense
+              - generic [ref=e41]: খরচের খাতা
+            - link "যোগাযোগ" [ref=e42] [cursor=pointer]:
+              - /url: /contact
+              - generic [ref=e44]: যোগাযোগ
+            - link "অ্যাপ ট্রেনিং" [ref=e45] [cursor=pointer]:
+              - /url: /tutorial
+              - generic [ref=e47]: অ্যাপ ট্রেনিং
+            - link "প্রোডাক্ট লিস্ট" [ref=e49] [cursor=pointer]:
+              - /url: /product
+              - generic [ref=e51]: প্রোডাক্ট লিস্ট
+            - link "স্টকের হিসাব" [ref=e52] [cursor=pointer]:
+              - /url: /stock
+              - generic [ref=e54]: স্টকের হিসাব
+            - link "অ্যাপ অ্যাক্সেস" [ref=e55] [cursor=pointer]:
+              - /url: /access-management
+              - generic [ref=e57]: অ্যাপ অ্যাক্সেস
+            - link "প্রিন্টার" [ref=e58] [cursor=pointer]:
+              - /url: /printer
+              - generic [ref=e60]: প্রিন্টার
+            - link "ব্যবসার রিপোর্ট" [ref=e61] [cursor=pointer]:
+              - /url: /business-overview
+              - generic [ref=e63]: ব্যবসার রিপোর্ট
+            - link "মার্কেটিং" [ref=e65] [cursor=pointer]:
+              - /url: /sms
+              - generic [ref=e67]: মার্কেটিং
+            - link "অনলাইন শপ" [ref=e68] [cursor=pointer]:
+              - /url: /online-shop
+              - generic [ref=e70]: অনলাইন শপ
+            - link "মেয়াদোত্তীর্ণ পণ্য" [ref=e71] [cursor=pointer]:
+              - /url: /expired-product?expired=false
+              - generic [ref=e73]: মেয়াদোত্তীর্ণ পণ্য
+            - link "ওয়ারেন্টি পণ্য" [ref=e74] [cursor=pointer]:
+              - /url: /warranty-product
+              - generic [ref=e76]: ওয়ারেন্টি পণ্য
+            - link "রিসাইকেল বিন" [ref=e77] [cursor=pointer]:
+              - /url: /recycle-bin
+              - generic [ref=e79]: রিসাইকেল বিন
+    - main [ref=e81]:
+      - generic [ref=e82]:
+        - navigation [ref=e83]:
+          - button [ref=e85] [cursor=pointer]:
+            - img [ref=e86]
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - button [ref=e90] [cursor=pointer]:
+                - img [ref=e91]
+              - button [ref=e93] [cursor=pointer]:
+                - img [ref=e94]
+              - button "সেটিংস" [ref=e98] [cursor=pointer]:
+                - img [ref=e99]
+                - generic [ref=e101]: সেটিংস
+            - generic [ref=e102] [cursor=pointer]:
+              - img "photo" [ref=e104]
+              - generic [ref=e105]: test
+              - img [ref=e106]
+        - list [ref=e109]:
+          - listitem [ref=e110]:
+            - link "Sell" [ref=e112] [cursor=pointer]:
+              - /url: /sell
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - paragraph [ref=e120]: বিক্রি করার জন্য পণ্য নির্বাচন করুন
+            - generic [ref=e121]:
+              - generic [ref=e122]:
+                - generic [ref=e124]:
+                  - searchbox [ref=e125]
+                  - img [ref=e127]
+                - searchbox "Barcode" [ref=e129]
+              - button "barcode" [ref=e131] [cursor=pointer]:
+                - img "barcode" [ref=e132]
+              - button [ref=e133] [cursor=pointer]:
+                - img [ref=e134]
+          - generic [ref=e139]:
+            - generic [ref=e141]:
+              - generic [ref=e142]:
+                - img [ref=e143]
+                - generic [ref=e148]:
+                  - paragraph [ref=e149]: pen
+                  - generic [ref=e150]:
+                    - paragraph [ref=e151]: "মূল্য: 50"
+                    - paragraph [ref=e152]: "স্টক: 100"
+              - group [ref=e153]:
+                - button "Add" [ref=e154] [cursor=pointer]
+                - generic [ref=e155]: "1"
+                - button [ref=e156] [cursor=pointer]:
+                  - img [ref=e157]
+            - generic [ref=e160]:
+              - generic [ref=e161]:
+                - img [ref=e162]
+                - generic [ref=e167]:
+                  - paragraph [ref=e168]: pen
+                  - generic [ref=e169]:
+                    - paragraph [ref=e170]: "মূল্য: 50"
+                    - paragraph [ref=e171]: "স্টক: 101"
+              - group [ref=e172]:
+                - button "Add" [ref=e173] [cursor=pointer]
+                - generic [ref=e174]: "1"
+                - button [ref=e175] [cursor=pointer]:
+                  - img [ref=e176]
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - img [ref=e181]
+                - generic [ref=e186]:
+                  - paragraph [ref=e187]: pen
+                  - generic [ref=e188]:
+                    - paragraph [ref=e189]: "মূল্য: 50"
+                    - paragraph [ref=e190]: "স্টক: 100"
+              - group [ref=e191]:
+                - button "Add" [ref=e192] [cursor=pointer]
+                - button [ref=e193] [cursor=pointer]:
+                  - img [ref=e194]
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - img [ref=e199]
+                - generic [ref=e204]:
+                  - paragraph [ref=e205]: pen
+                  - generic [ref=e206]:
+                    - paragraph [ref=e207]: "মূল্য: 50"
+                    - paragraph [ref=e208]: "স্টক: 103"
+              - group [ref=e209]:
+                - button "Add" [ref=e210] [cursor=pointer]
+                - button [ref=e211] [cursor=pointer]:
+                  - img [ref=e212]
+            - generic [ref=e215]:
+              - generic [ref=e216]:
+                - img [ref=e217]
+                - generic [ref=e222]:
+                  - paragraph [ref=e223]: pen
+                  - generic [ref=e224]:
+                    - paragraph [ref=e225]: "মূল্য: 50"
+                    - paragraph [ref=e226]: "স্টক: 102"
+              - group [ref=e227]:
+                - button "Add" [ref=e228] [cursor=pointer]
+                - button [ref=e229] [cursor=pointer]:
+                  - img [ref=e230]
+            - generic [ref=e233]:
+              - generic [ref=e234]:
+                - img [ref=e235]
+                - generic [ref=e240]:
+                  - paragraph [ref=e241]: pen
+                  - generic [ref=e242]:
+                    - paragraph [ref=e243]: "মূল্য: 50"
+                    - paragraph [ref=e244]: "স্টক: 102"
+              - group [ref=e245]:
+                - button "Add" [ref=e246] [cursor=pointer]
+                - button [ref=e247] [cursor=pointer]:
+                  - img [ref=e248]
+            - generic [ref=e251]:
+              - generic [ref=e252]:
+                - img [ref=e253]
+                - generic [ref=e258]:
+                  - paragraph [ref=e259]: pen
+                  - generic [ref=e260]:
+                    - paragraph [ref=e261]: "মূল্য: 50"
+                    - paragraph [ref=e262]: "স্টক: 102"
+              - group [ref=e263]:
+                - button "Add" [ref=e264] [cursor=pointer]
+                - button [ref=e265] [cursor=pointer]:
+                  - img [ref=e266]
+            - generic [ref=e269]:
+              - generic [ref=e270]:
+                - img [ref=e271]
+                - generic [ref=e276]:
+                  - paragraph [ref=e277]: pen
+                  - generic [ref=e278]:
+                    - paragraph [ref=e279]: "মূল্য: 50"
+                    - paragraph [ref=e280]: "স্টক: 103"
+              - group [ref=e281]:
+                - button "Add" [ref=e282] [cursor=pointer]
+                - button [ref=e283] [cursor=pointer]:
+                  - img [ref=e284]
+            - generic [ref=e287]:
+              - generic [ref=e288]:
+                - img [ref=e289]
+                - generic [ref=e294]:
+                  - paragraph [ref=e295]: pen
+                  - generic [ref=e296]:
+                    - paragraph [ref=e297]: "মূল্য: 50"
+                    - paragraph [ref=e298]: "স্টক: 102"
+              - group [ref=e299]:
+                - button "Add" [ref=e300] [cursor=pointer]
+                - button [ref=e301] [cursor=pointer]:
+                  - img [ref=e302]
+            - generic [ref=e305]:
+              - generic [ref=e306]:
+                - img [ref=e307]
+                - generic [ref=e312]:
+                  - paragraph [ref=e313]: pen
+                  - generic [ref=e314]:
+                    - paragraph [ref=e315]: "মূল্য: 50"
+                    - paragraph [ref=e316]: "স্টক: 101"
+              - group [ref=e317]:
+                - button "Add" [ref=e318] [cursor=pointer]
+                - button [ref=e319] [cursor=pointer]:
+                  - img [ref=e320]
+            - generic [ref=e323]:
+              - generic [ref=e324]:
+                - img [ref=e325]
+                - generic [ref=e330]:
+                  - paragraph [ref=e331]: pen
+                  - generic [ref=e332]:
+                    - paragraph [ref=e333]: "মূল্য: 50"
+                    - paragraph [ref=e334]: "স্টক: 103"
+              - group [ref=e335]:
+                - button "Add" [ref=e336] [cursor=pointer]
+                - button [ref=e337] [cursor=pointer]:
+                  - img [ref=e338]
+            - generic [ref=e341]:
+              - generic [ref=e342]:
+                - img [ref=e343]
+                - generic [ref=e348]:
+                  - paragraph [ref=e349]: pen
+                  - generic [ref=e350]:
+                    - paragraph [ref=e351]: "মূল্য: 50"
+                    - paragraph [ref=e352]: "স্টক: 101"
+              - group [ref=e353]:
+                - button "Add" [ref=e354] [cursor=pointer]
+                - button [ref=e355] [cursor=pointer]:
+                  - img [ref=e356]
+            - generic [ref=e359]:
+              - generic [ref=e360]:
+                - img [ref=e361]
+                - generic [ref=e366]:
+                  - paragraph [ref=e367]: pen
+                  - generic [ref=e368]:
+                    - paragraph [ref=e369]: "মূল্য: 50"
+                    - paragraph [ref=e370]: "স্টক: 101"
+              - group [ref=e371]:
+                - button "Add" [ref=e372] [cursor=pointer]
+                - button [ref=e373] [cursor=pointer]:
+                  - img [ref=e374]
+            - generic [ref=e377]:
+              - generic [ref=e378]:
+                - img [ref=e379]
+                - generic [ref=e384]:
+                  - paragraph [ref=e385]: pen
+                  - generic [ref=e386]:
+                    - paragraph [ref=e387]: "মূল্য: 50"
+                    - paragraph [ref=e388]: "স্টক: 103"
+              - group [ref=e389]:
+                - button "Add" [ref=e390] [cursor=pointer]
+                - button [ref=e391] [cursor=pointer]:
+                  - img [ref=e392]
+            - generic [ref=e395]:
+              - generic [ref=e396]:
+                - img [ref=e397]
+                - generic [ref=e402]:
+                  - paragraph [ref=e403]: pen
+                  - generic [ref=e404]:
+                    - paragraph [ref=e405]: "মূল্য: 50"
+                    - paragraph [ref=e406]: "স্টক: 104"
+              - group [ref=e407]:
+                - button "Add" [ref=e408] [cursor=pointer]
+                - button [ref=e409] [cursor=pointer]:
+                  - img [ref=e410]
+            - generic [ref=e413]:
+              - generic [ref=e414]:
+                - img [ref=e415]
+                - generic [ref=e420]:
+                  - paragraph [ref=e421]: pen
+                  - generic [ref=e422]:
+                    - paragraph [ref=e423]: "মূল্য: 50"
+                    - paragraph [ref=e424]: "স্টক: 104"
+              - group [ref=e425]:
+                - button "Add" [ref=e426] [cursor=pointer]
+                - button [ref=e427] [cursor=pointer]:
+                  - img [ref=e428]
+            - generic [ref=e431]:
+              - generic [ref=e432]:
+                - img [ref=e433]
+                - generic [ref=e438]:
+                  - paragraph [ref=e439]: pen
+                  - generic [ref=e440]:
+                    - paragraph [ref=e441]: "মূল্য: 50"
+                    - paragraph [ref=e442]: "স্টক: 101"
+              - group [ref=e443]:
+                - button "Add" [ref=e444] [cursor=pointer]
+                - button [ref=e445] [cursor=pointer]:
+                  - img [ref=e446]
+            - generic [ref=e449]:
+              - generic [ref=e450]:
+                - img [ref=e451]
+                - generic [ref=e456]:
+                  - paragraph [ref=e457]: pen
+                  - generic [ref=e458]:
+                    - paragraph [ref=e459]: "মূল্য: 50"
+                    - paragraph [ref=e460]: "স্টক: 2"
+              - group [ref=e461]:
+                - button "Add" [ref=e462] [cursor=pointer]
+                - button [ref=e463] [cursor=pointer]:
+                  - img [ref=e464]
+            - generic [ref=e467]:
+              - generic [ref=e468]:
+                - img [ref=e469]
+                - generic [ref=e474]:
+                  - paragraph [ref=e475]: pen
+                  - generic [ref=e476]:
+                    - paragraph [ref=e477]: "মূল্য: 50"
+                    - paragraph [ref=e478]: "স্টক: 100"
+              - group [ref=e479]:
+                - button "Add" [ref=e480] [cursor=pointer]
+                - button [ref=e481] [cursor=pointer]:
+                  - img [ref=e482]
+            - generic [ref=e485]:
+              - generic [ref=e486]:
+                - img [ref=e487]
+                - generic [ref=e492]:
+                  - paragraph [ref=e493]: pen
+                  - generic [ref=e494]:
+                    - paragraph [ref=e495]: "মূল্য: 50"
+                    - paragraph [ref=e496]: "স্টক: 100"
+              - group [ref=e497]:
+                - button "Add" [ref=e498] [cursor=pointer]
+                - button [ref=e499] [cursor=pointer]:
+                  - img [ref=e500]
+            - button [ref=e503] [cursor=pointer]:
+              - img [ref=e504]
+        - generic [ref=e508]:
+          - generic [ref=e511]:
+            - generic [ref=e512]:
+              - paragraph [ref=e513]: "পণ্য নির্বাচন করেছেন : (2)"
+              - button "Clear cart" [ref=e514] [cursor=pointer]
+            - generic [ref=e515]:
+              - generic [ref=e516]:
+                - generic [ref=e517]:
+                  - generic [ref=e518]:
+                    - img [ref=e521]
+                    - article [ref=e524]:
+                      - paragraph [ref=e525]: pen
+                      - paragraph [ref=e526]: স্টক 100
+                  - generic [ref=e527]:
+                    - searchbox "Barcode" [ref=e528]
+                    - button "barcode" [ref=e530] [cursor=pointer]:
+                      - img "barcode" [ref=e531]
+                    - button "warranty" [ref=e532] [cursor=pointer]:
+                      - paragraph [ref=e533]: warranty
+                      - img [ref=e534]
+                    - button [ref=e536] [cursor=pointer]:
+                      - img [ref=e537]
+                - generic [ref=e540]:
+                  - generic [ref=e541]:
+                    - generic [ref=e542]: পরিমাণ *
+                    - spinbutton [ref=e543]: "1"
+                  - generic [ref=e544]:
+                    - generic [ref=e545]: মূল্য *
+                    - spinbutton [ref=e546]: "50"
+                  - generic [ref=e547]:
+                    - generic [ref=e548]: মোট *
+                    - spinbutton [disabled] [ref=e549]: "50.00"
+              - generic [ref=e550]:
+                - generic [ref=e551]:
+                  - generic [ref=e552]:
+                    - img [ref=e555]
+                    - article [ref=e558]:
+                      - paragraph [ref=e559]: pen
+                      - paragraph [ref=e560]: স্টক 101
+                  - generic [ref=e561]:
+                    - searchbox "Barcode" [ref=e562]
+                    - button "barcode" [ref=e564] [cursor=pointer]:
+                      - img "barcode" [ref=e565]
+                    - button "warranty" [ref=e566] [cursor=pointer]:
+                      - paragraph [ref=e567]: warranty
+                      - img [ref=e568]
+                    - button [ref=e570] [cursor=pointer]:
+                      - img [ref=e571]
+                - generic [ref=e574]:
+                  - generic [ref=e575]:
+                    - generic [ref=e576]: পরিমাণ *
+                    - spinbutton [ref=e577]: "1"
+                  - generic [ref=e578]:
+                    - generic [ref=e579]: মূল্য *
+                    - spinbutton [ref=e580]: "50"
+                  - generic [ref=e581]:
+                    - generic [ref=e582]: মোট *
+                    - spinbutton [disabled] [ref=e583]: "50.00"
+          - generic [ref=e584]:
+            - button [active] [ref=e586] [cursor=pointer]:
+              - img [ref=e587]
+            - generic [ref=e589]:
+              - article [ref=e590]:
+                - paragraph [ref=e591]: মোট
+                - paragraph [ref=e592]: ৳ ১০০
+              - generic [ref=e593]:
+                - generic [ref=e594]:
+                  - paragraph [ref=e595]: ডিস্কাউন্ট
+                  - generic [ref=e596]:
+                    - spinbutton [ref=e598]: "0"
+                    - combobox [ref=e600] [cursor=pointer]:
+                      - generic: ৳
+                      - img [ref=e601]
+                - generic [ref=e603]:
+                  - paragraph [ref=e604]: ডেলিভারী চার্জ
+                  - spinbutton [ref=e606]: "0"
+              - article [ref=e607]:
+                - paragraph [ref=e608]: সর্বমোট
+                - paragraph [ref=e609]: ৳ ১০০
+            - generic [ref=e611]:
+              - button "নগদ টাকা" [ref=e612] [cursor=pointer]:
+                - text: নগদ টাকা
+                - img [ref=e613]
+              - button "বাকি" [ref=e615] [cursor=pointer]:
+                - text: বাকি
+                - img [ref=e616]
+  - region "Notifications alt+T"
+```

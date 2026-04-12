@@ -6,7 +6,6 @@ module.exports = defineConfig({
 
   fullyParallel: true,
 
-  // 🔥 Flaky detect করার জন্য
   retries: 2,
 
   timeout: 60000,
@@ -14,12 +13,11 @@ module.exports = defineConfig({
   reporter: [['list'], ['allure-playwright']],
 
   use: {
-    headless: false, // 👈 headed default (debug friendly)
+    // ✅ FIXED
+    headless: process.env.CI ? true : false,
 
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-
-    // 🔥 সব run এ trace রাখবে (best for debugging)
     trace: 'retain-on-failure',
 
     actionTimeout: 15000,
@@ -35,10 +33,5 @@ module.exports = defineConfig({
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
     },
-    // optional
-    // {
-    //   name: 'webkit',
-    //   use: { ...devices['Desktop Safari'] },
-    // },
   ],
 });

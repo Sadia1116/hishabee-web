@@ -1,0 +1,276 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - link "logo" [ref=e7] [cursor=pointer]:
+        - /url: /home
+        - img "logo" [ref=e8]
+      - navigation [ref=e9]:
+        - list [ref=e10]:
+          - generic [ref=e13]:
+            - link "হোম" [ref=e14] [cursor=pointer]:
+              - /url: /home
+              - generic [ref=e16]: হোম
+            - link "কেনা" [ref=e17] [cursor=pointer]:
+              - /url: /purchase
+              - generic [ref=e19]: কেনা
+            - link "বেচা" [ref=e20] [cursor=pointer]:
+              - /url: /sell
+              - generic [ref=e22]: বেচা
+            - link "ক্যাশবক্স" [ref=e23] [cursor=pointer]:
+              - /url: /cashbox
+              - generic [ref=e25]: ক্যাশবক্স
+            - button "দ্রুত বেচা" [ref=e26] [cursor=pointer]:
+              - generic [ref=e28]: দ্রুত বেচা
+            - link "কেনার খাতা" [ref=e30] [cursor=pointer]:
+              - /url: /purchase-list
+              - generic [ref=e32]: কেনার খাতা
+            - link "বেচার খাতা" [active] [ref=e33] [cursor=pointer]:
+              - /url: /sell-list
+              - generic [ref=e35]: বেচার খাতা
+            - link "বাকির খাতা" [ref=e36] [cursor=pointer]:
+              - /url: /due
+              - generic [ref=e38]: বাকির খাতা
+            - link "খরচের খাতা" [ref=e39] [cursor=pointer]:
+              - /url: /expense
+              - generic [ref=e41]: খরচের খাতা
+            - link "যোগাযোগ" [ref=e42] [cursor=pointer]:
+              - /url: /contact
+              - generic [ref=e44]: যোগাযোগ
+            - link "অ্যাপ ট্রেনিং" [ref=e45] [cursor=pointer]:
+              - /url: /tutorial
+              - generic [ref=e47]: অ্যাপ ট্রেনিং
+            - link "প্রোডাক্ট লিস্ট" [ref=e49] [cursor=pointer]:
+              - /url: /product
+              - generic [ref=e51]: প্রোডাক্ট লিস্ট
+            - link "স্টকের হিসাব" [ref=e52] [cursor=pointer]:
+              - /url: /stock
+              - generic [ref=e54]: স্টকের হিসাব
+            - link "অ্যাপ অ্যাক্সেস" [ref=e55] [cursor=pointer]:
+              - /url: /access-management
+              - generic [ref=e57]: অ্যাপ অ্যাক্সেস
+            - link "প্রিন্টার" [ref=e58] [cursor=pointer]:
+              - /url: /printer
+              - generic [ref=e60]: প্রিন্টার
+            - link "ব্যবসার রিপোর্ট" [ref=e61] [cursor=pointer]:
+              - /url: /business-overview
+              - generic [ref=e63]: ব্যবসার রিপোর্ট
+            - link "মার্কেটিং" [ref=e65] [cursor=pointer]:
+              - /url: /sms
+              - generic [ref=e67]: মার্কেটিং
+            - link "অনলাইন শপ" [ref=e68] [cursor=pointer]:
+              - /url: /online-shop
+              - generic [ref=e70]: অনলাইন শপ
+            - link "মেয়াদোত্তীর্ণ পণ্য" [ref=e71] [cursor=pointer]:
+              - /url: /expired-product?expired=false
+              - generic [ref=e73]: মেয়াদোত্তীর্ণ পণ্য
+            - link "ওয়ারেন্টি পণ্য" [ref=e74] [cursor=pointer]:
+              - /url: /warranty-product
+              - generic [ref=e76]: ওয়ারেন্টি পণ্য
+            - link "রিসাইকেল বিন" [ref=e77] [cursor=pointer]:
+              - /url: /recycle-bin
+              - generic [ref=e79]: রিসাইকেল বিন
+    - main [ref=e83]:
+      - generic [ref=e84]:
+        - navigation [ref=e85]:
+          - button [ref=e87] [cursor=pointer]:
+            - img [ref=e88]
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - button [ref=e92] [cursor=pointer]:
+                - img [ref=e93]
+              - button [ref=e95] [cursor=pointer]:
+                - img [ref=e96]
+              - button "সেটিংস" [ref=e100] [cursor=pointer]:
+                - img [ref=e101]
+                - generic [ref=e103]: সেটিংস
+            - generic [ref=e104] [cursor=pointer]:
+              - img "photo" [ref=e106]
+              - generic [ref=e107]: test
+              - img [ref=e108]
+        - list [ref=e111]:
+          - listitem [ref=e112]:
+            - link "Sell History" [ref=e114] [cursor=pointer]:
+              - /url: /sell-list
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - paragraph [ref=e119]: লেনদেনের ইতিহাস
+          - generic [ref=e120]:
+            - button "ডাউনলোড/প্রিন্ট" [ref=e121] [cursor=pointer]:
+              - img [ref=e122]
+              - generic [ref=e124]: ডাউনলোড/প্রিন্ট
+            - paragraph [ref=e126]: "মোট বিক্রি : ৳ ৮,৫০০"
+        - generic [ref=e127]:
+          - generic [ref=e129]:
+            - searchbox [ref=e130]
+            - img [ref=e132]
+          - button "Apr 01, 2026 - Apr 30, 2026" [ref=e135] [cursor=pointer]:
+            - img [ref=e136]
+            - text: Apr 01, 2026 - Apr 30, 2026
+          - combobox [ref=e138] [cursor=pointer]:
+            - generic: 10 per page
+            - img [ref=e139]
+          - button "রিফ্রেশ" [ref=e141] [cursor=pointer]:
+            - generic [ref=e142]:
+              - img [ref=e143]
+              - paragraph [ref=e145]: রিফ্রেশ
+        - table [ref=e150]:
+          - rowgroup [ref=e151]:
+            - row "যোগাযোগ ইনভয়েস নং আইটেম টাকার পরিমান তারিখ পেমেন্ট অবস্থা Action" [ref=e152]:
+              - columnheader "যোগাযোগ" [ref=e153]
+              - columnheader "ইনভয়েস নং" [ref=e154]
+              - columnheader "আইটেম" [ref=e155]
+              - columnheader "টাকার পরিমান" [ref=e156]
+              - columnheader "তারিখ" [ref=e157]
+              - columnheader "পেমেন্ট অবস্থা" [ref=e158]
+              - columnheader "Action" [ref=e159]
+          - rowgroup [ref=e160]:
+            - row "--- --- 01KP0QV ১ ৳ ৫০ ১২ এপ্রিল ২০২৬, ০৫:৪০ PM নগদ টাকা" [ref=e161] [cursor=pointer]:
+              - cell "--- ---" [ref=e162]:
+                - generic [ref=e163]: "---"
+                - generic [ref=e164]: "---"
+              - cell "01KP0QV" [ref=e165]
+              - cell "১" [ref=e166]
+              - cell "৳ ৫০" [ref=e167]
+              - cell "১২ এপ্রিল ২০২৬, ০৫:৪০ PM" [ref=e168]
+              - cell "নগদ টাকা" [ref=e169]:
+                - paragraph [ref=e170]: নগদ টাকা
+              - cell [ref=e171]:
+                - button [ref=e172]:
+                  - img [ref=e173]
+            - row "--- --- 01KP0QT ১ ৳ ২০০ ১২ এপ্রিল ২০২৬, ০৫:৩৯ PM দ্রুত বিক্রি" [ref=e175] [cursor=pointer]:
+              - cell "--- ---" [ref=e176]:
+                - generic [ref=e177]: "---"
+                - generic [ref=e178]: "---"
+              - cell "01KP0QT" [ref=e179]
+              - cell "১" [ref=e180]
+              - cell "৳ ২০০" [ref=e181]
+              - cell "১২ এপ্রিল ২০২৬, ০৫:৩৯ PM" [ref=e182]
+              - cell "দ্রুত বিক্রি" [ref=e183]:
+                - paragraph [ref=e184]: দ্রুত বিক্রি
+              - cell [ref=e185]:
+                - button [ref=e186]:
+                  - img [ref=e187]
+            - row "--- --- 01KP0QT ১ ৳ ৫০০ ১২ এপ্রিল ২০২৬, ০৫:৩৯ PM দ্রুত বিক্রি" [ref=e189] [cursor=pointer]:
+              - cell "--- ---" [ref=e190]:
+                - generic [ref=e191]: "---"
+                - generic [ref=e192]: "---"
+              - cell "01KP0QT" [ref=e193]
+              - cell "১" [ref=e194]
+              - cell "৳ ৫০০" [ref=e195]
+              - cell "১২ এপ্রিল ২০২৬, ০৫:৩৯ PM" [ref=e196]
+              - cell "দ্রুত বিক্রি" [ref=e197]:
+                - paragraph [ref=e198]: দ্রুত বিক্রি
+              - cell [ref=e199]:
+                - button [ref=e200]:
+                  - img [ref=e201]
+            - row "Test User +88 01700000000 01KP0QS ১ ৳ ৬০০ ১২ এপ্রিল ২০২৬, ০৫:৩৯ PM দ্রুত বিক্রি" [ref=e203] [cursor=pointer]:
+              - cell "Test User +88 01700000000" [ref=e204]:
+                - generic [ref=e205]: Test User
+                - generic [ref=e206]: +88 01700000000
+              - cell "01KP0QS" [ref=e207]
+              - cell "১" [ref=e208]
+              - cell "৳ ৬০০" [ref=e209]
+              - cell "১২ এপ্রিল ২০২৬, ০৫:৩৯ PM" [ref=e210]
+              - cell "দ্রুত বিক্রি" [ref=e211]:
+                - paragraph [ref=e212]: দ্রুত বিক্রি
+              - cell [ref=e213]:
+                - button [ref=e214]:
+                  - img [ref=e215]
+            - row "Test User +88 01700000000 01KP0HR ১ ৳ ৬০০ ১২ এপ্রিল ২০২৬, ০৩:৫৩ PM দ্রুত বিক্রি" [ref=e217] [cursor=pointer]:
+              - cell "Test User +88 01700000000" [ref=e218]:
+                - generic [ref=e219]: Test User
+                - generic [ref=e220]: +88 01700000000
+              - cell "01KP0HR" [ref=e221]
+              - cell "১" [ref=e222]
+              - cell "৳ ৬০০" [ref=e223]
+              - cell "১২ এপ্রিল ২০২৬, ০৩:৫৩ PM" [ref=e224]
+              - cell "দ্রুত বিক্রি" [ref=e225]:
+                - paragraph [ref=e226]: দ্রুত বিক্রি
+              - cell [ref=e227]:
+                - button [ref=e228]:
+                  - img [ref=e229]
+            - row "--- --- 01KP0HR ১ ৳ ৫০০ ১২ এপ্রিল ২০২৬, ০৩:৫৩ PM দ্রুত বিক্রি" [ref=e231] [cursor=pointer]:
+              - cell "--- ---" [ref=e232]:
+                - generic [ref=e233]: "---"
+                - generic [ref=e234]: "---"
+              - cell "01KP0HR" [ref=e235]
+              - cell "১" [ref=e236]
+              - cell "৳ ৫০০" [ref=e237]
+              - cell "১২ এপ্রিল ২০২৬, ০৩:৫৩ PM" [ref=e238]
+              - cell "দ্রুত বিক্রি" [ref=e239]:
+                - paragraph [ref=e240]: দ্রুত বিক্রি
+              - cell [ref=e241]:
+                - button [ref=e242]:
+                  - img [ref=e243]
+            - row "--- --- 01KP0HQ ১ ৳ ২০০ ১২ এপ্রিল ২০২৬, ০৩:৫২ PM দ্রুত বিক্রি" [ref=e245] [cursor=pointer]:
+              - cell "--- ---" [ref=e246]:
+                - generic [ref=e247]: "---"
+                - generic [ref=e248]: "---"
+              - cell "01KP0HQ" [ref=e249]
+              - cell "১" [ref=e250]
+              - cell "৳ ২০০" [ref=e251]
+              - cell "১২ এপ্রিল ২০২৬, ০৩:৫২ PM" [ref=e252]
+              - cell "দ্রুত বিক্রি" [ref=e253]:
+                - paragraph [ref=e254]: দ্রুত বিক্রি
+              - cell [ref=e255]:
+                - button [ref=e256]:
+                  - img [ref=e257]
+            - row "--- --- 01KP0HQ ১ ৳ ৪০০ ১২ এপ্রিল ২০২৬, ০৩:৫২ PM দ্রুত বিক্রি" [ref=e259] [cursor=pointer]:
+              - cell "--- ---" [ref=e260]:
+                - generic [ref=e261]: "---"
+                - generic [ref=e262]: "---"
+              - cell "01KP0HQ" [ref=e263]
+              - cell "১" [ref=e264]
+              - cell "৳ ৪০০" [ref=e265]
+              - cell "১২ এপ্রিল ২০২৬, ০৩:৫২ PM" [ref=e266]
+              - cell "দ্রুত বিক্রি" [ref=e267]:
+                - paragraph [ref=e268]: দ্রুত বিক্রি
+              - cell [ref=e269]:
+                - button [ref=e270]:
+                  - img [ref=e271]
+            - row "--- --- 01KP0HP ১ ৳ ৪০০ ১২ এপ্রিল ২০২৬, ০৩:৫২ PM দ্রুত বিক্রি" [ref=e273] [cursor=pointer]:
+              - cell "--- ---" [ref=e274]:
+                - generic [ref=e275]: "---"
+                - generic [ref=e276]: "---"
+              - cell "01KP0HP" [ref=e277]
+              - cell "১" [ref=e278]
+              - cell "৳ ৪০০" [ref=e279]
+              - cell "১২ এপ্রিল ২০২৬, ০৩:৫২ PM" [ref=e280]
+              - cell "দ্রুত বিক্রি" [ref=e281]:
+                - paragraph [ref=e282]: দ্রুত বিক্রি
+              - cell [ref=e283]:
+                - button [ref=e284]:
+                  - img [ref=e285]
+            - row "--- --- 01KP0HN ১ ৳ ২০০ ১২ এপ্রিল ২০২৬, ০৩:৫২ PM দ্রুত বিক্রি" [ref=e287] [cursor=pointer]:
+              - cell "--- ---" [ref=e288]:
+                - generic [ref=e289]: "---"
+                - generic [ref=e290]: "---"
+              - cell "01KP0HN" [ref=e291]
+              - cell "১" [ref=e292]
+              - cell "৳ ২০০" [ref=e293]
+              - cell "১২ এপ্রিল ২০২৬, ০৩:৫২ PM" [ref=e294]
+              - cell "দ্রুত বিক্রি" [ref=e295]:
+                - paragraph [ref=e296]: দ্রুত বিক্রি
+              - cell [ref=e297]:
+                - button [ref=e298]:
+                  - img [ref=e299]
+          - rowgroup [ref=e301]:
+            - row "Showing 1 to 10 of 17 Transactions" [ref=e302]:
+              - cell "Showing 1 to 10 of 17 Transactions" [ref=e303]
+        - generic [ref=e306]:
+          - button [disabled]:
+            - img
+          - button [disabled]:
+            - img
+          - generic [ref=e307]:
+            - button "1" [ref=e309] [cursor=pointer]
+            - button "2" [ref=e311] [cursor=pointer]
+          - button [ref=e312] [cursor=pointer]:
+            - img [ref=e313]
+          - button [ref=e315] [cursor=pointer]:
+            - img [ref=e316]
+  - region "Notifications alt+T"
+```
